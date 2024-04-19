@@ -68,4 +68,15 @@
 			</plugin>
 		</plugins>
 	</build>
+	<profiles>
+		<profile>
+			<id>prod</id>
+			<activation>
+				<activeByDefault>false</activeByDefault>
+			</activation>
+			<properties>
+				<!-- Define properties specific to the "prod" profile here -->
+			</properties>
+		</profile>
+	</profiles>
 </project>
